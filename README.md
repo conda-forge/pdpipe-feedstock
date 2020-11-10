@@ -122,4 +122,5 @@ Feedstock Maintainers
 =====================
 
 * [@Silun](https://github.com/Silun/)
+* [@shaypal5](https://github.com/shaypal5/)
 
