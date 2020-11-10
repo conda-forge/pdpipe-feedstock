@@ -1,4 +1,3 @@
-# Test with forked repo and fix, temporary git source to be replaced later
 {% set name = "pdpipe" %}
 {% set version = "0.0.53" %}
 
