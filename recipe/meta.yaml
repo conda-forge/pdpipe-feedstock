@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
@@ -19,7 +19,7 @@ requirements:
     - python >=3.6,<3.9
     - pip
   run:
-    - python >=3.6,<=3.8
+    - python >=3.6,<3.9
     - pandas >=0.18.0
     - sortedcontainers
     - strct
