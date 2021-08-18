@@ -1,5 +1,5 @@
 {% set name = "pdpipe" %}
-{% set version = "0.0.53" %}
+{% set version = "0.0.56" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 5e219909199995013938a92663424394d62159de90f6d0ac97000146bc4e38b6
+  sha256: 7a081981b5e048338240c4cbab19d3b5c87e361dbaa853615f789d811571dad9
 
 build:
   noarch: python
-  number: 1
-  script: "{{ PYTHON }} -m pip install . -vv"
+  number: 0
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -37,7 +37,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE.txt
-  summary: 'Easy pipelines for pandas.'
+  summary: Easy pipelines for pandas.
   doc_url: https://pdpipe.github.io/pdpipe/doc/pdpipe/
   dev_url: https://github.com/pdpipe/pdpipe
 
