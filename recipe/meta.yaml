@@ -16,17 +16,16 @@ build:
 
 requirements:
   host:
-    - python >=3.6,<3.9
+    - python >=3.7,<3.11
     - pip
   run:
-    - python >=3.6,<3.9
+    - python >=3.7,<3.11
     - pandas >=0.18.0
     - sortedcontainers
-    - strct
+    - strct 
     - tqdm
     - skutil >=0.0.15
-    - scikit-learn
-    - nltk
+    - birch
 
 test:
   imports:
