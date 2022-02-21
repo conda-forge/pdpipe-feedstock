@@ -1,5 +1,5 @@
 {% set name = "pdpipe" %}
-{% set version = "0.1.3" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f04d3d1bc6ec4c5f48bd3050969256cc724573a745415d3d4d800a3b90728303
+  sha256: bdb26127849b2bafa1dceb35ce21ffd4c380a2737d9fd4244dff109da71f10c0
 
 build:
   noarch: python
@@ -22,7 +22,7 @@ requirements:
     - python >=3.7,<3.11
     - pandas >=0.18.0
     - sortedcontainers
-    - strct 
+    - strct
     - tqdm
     - skutil >=0.0.15
     - birch
