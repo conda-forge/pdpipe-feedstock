@@ -20,14 +20,17 @@ requirements:
     - pip
   run:
     - python >=3.7,<3.11
-    - versioneer
-    - versioneer-518
     - pandas >=0.18.0
     - sortedcontainers
     - strct
     - tqdm
     - skutil >=0.0.15
     - birch
+    - versioneer
+    - versioneer-518
+    - numpy
+    - nltk
+    - scikit-learn
 
 test:
   imports:
