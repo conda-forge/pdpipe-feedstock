@@ -27,9 +27,6 @@ requirements:
     - tqdm
     - skutil >=0.0.15
     - birch
-    - numpy
-    - nltk
-    - scikit-learn
 
 test:
   imports:
