@@ -1,5 +1,5 @@
 {% set name = "pdpipe" %}
-{% set version = "0.2.4" %}
+{% set version = "0.2.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8612e0fbcad40ef7c581fe635e7dfddced45280726aa9a13428dae428630e88c
+  sha256: 4f6cff552984cf867e4f418694dc9a3f1f898e505c4ccb21939a90d0b1a6b2ab
 
 build:
   noarch: python
